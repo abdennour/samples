@@ -25,5 +25,5 @@ func main() {
 }
 
 func helloServer(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, fmt.Sprintf("Hello from the cluster namespace '%s'", namespace))
+	fmt.Fprint(w, fmt.Sprintf("Hello from Abdennour ,the app is running in the cluster namespace '%s'", namespace))
 }
